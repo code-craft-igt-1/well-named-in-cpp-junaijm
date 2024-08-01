@@ -2,6 +2,8 @@
 
 int main() 
 {
+    TeleCommColorCoder::ColorCoder::PrintColorPairs();
+
     TeleCommColorCoderTest::testNumberToPair(4, TeleCommColorCoder::WHITE, TeleCommColorCoder::BROWN);
     TeleCommColorCoderTest::testNumberToPair(5, TeleCommColorCoder::WHITE, TeleCommColorCoder::SLATE);
 

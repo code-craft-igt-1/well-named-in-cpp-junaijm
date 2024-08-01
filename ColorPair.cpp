@@ -22,7 +22,7 @@ namespace TeleCommColorCoder
     std::string ColorPair::ToString() 
     {
         std::string colorPairStr = getMajorColorName(majorColor);
-        colorPairStr += " ";
+        colorPairStr += "\t";
         colorPairStr += getMinorColorName(minorColor);
         return colorPairStr;
     }
